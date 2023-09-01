@@ -66,7 +66,7 @@ function App() {
     setDisabled(false);
   };
 
-  // start new game automagically
+  // start new game automatically
   useEffect(() => {
     shuffleCards();
   }, []);
